@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Feedback</title>
+</head>
+<body>
+    <h2>Saved Feedback</h2>
+
+    {% for row in feedback %}
+        <p>
+            <b>{{ row[1] }}</b>: {{ row[2] }}
+        </p>
+        <hr>
+    {% endfor %}
+
+    <a href="/">Add New Feedback</a>
+</body>
+</html>
