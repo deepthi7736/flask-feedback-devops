@@ -30,3 +30,19 @@ Developer → GitHub → Jenkins (CI/CD) → Docker → AWS EC2 → Prometheus �
 ---
 
 ## 📁 Project Structure
+student-feedback-flask/
+
+├── app.py
+├── templates/
+├── static/
+├── docker/Dockerfile
+├── terraform/
+├── monitoring/
+├── Jenkinsfile
+└── README.md
+<img width="1920" height="950" alt="Screenshot (292)" src="https://github.com/user-attachments/assets/16a3e7ed-830a-498c-8484-ee264f77a1cc" />
+### 📝 Feedback Form
+![Feedback Form](link)
+
+Users can submit feedback by entering their name.
+
